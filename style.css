@@ -8,4 +8,67 @@
   border: none;
 }
 
+.card {
+  font-family: "Montserrat", sans-serif;
+  max-width: 38.3rem;
+  background-color: #f2f2f2;
+  padding: 3.1rem 3rem;
+  border: none;
+  border-radius: 1.2rem;
+}
+.card .product {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+}
+.card .product__img {
+  border-radius: 2rem;
+  margin-right: 2rem;
+  width: 17.5rem;
+}
+.card .product__description {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #4e5150;
+  display: flex;
+  flex-direction: column;
+}
+.card .product__prices .pp-1 {
+  color: #f2994a;
+}
+.card .product__prices .pp-2 {
+  font-size: 1.2rem;
+  text-decoration: line-through;
+  margin-left: 1rem;
+}
+.card .product__btn-group {
+  margin-top: auto;
+  border: 2px solid #828282;
+  border-radius: 12px;
+  width: 13.5rem;
+  height: 5.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card .product__btn-group button {
+  border: none;
+  border-radius: 5px;
+  width: 2.12rem;
+  height: 2.12rem;
+  display: flex;
+  align-items: center;
+}
+.card .order {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 7rem;
+}
+.card .order p {
+  border-top: 2px solid #bdbdbd;
+  display: flex;
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=style.css.map */
